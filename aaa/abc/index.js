@@ -1,10 +1,11 @@
-System.register("index", ["angular2/core", "angular2/platform/browser", "myclient", "welcome"], function($__export) {
+System.register("index", ["angular2/core", "angular2/platform/browser", "myclient", "welcome", "mygithub"], function($__export) {
   "use strict";
   var Component,
       View,
       bootstrap,
       Myclient,
       Welcome,
+      Mygithub,
       Main;
   return {
     setters: [function($__m) {
@@ -16,6 +17,8 @@ System.register("index", ["angular2/core", "angular2/platform/browser", "myclien
       Myclient = $__m.Myclient;
     }, function($__m) {
       Welcome = $__m.Welcome;
+    }, function($__m) {
+      Mygithub = $__m.Mygithub;
     }],
     execute: function() {
       Main = function() {
@@ -30,6 +33,7 @@ System.register("index", ["angular2/core", "angular2/platform/browser", "myclien
         }});
       bootstrap(Main);
       bootstrap(Welcome);
+      bootstrap(Mygithub);
     }
   };
 });

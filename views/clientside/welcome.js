@@ -13,7 +13,7 @@ System.register("welcome", ["angular2/core"], function($__export) {
         function Welcome() {}
         return ($traceurRuntime.createClass)(Welcome, {addName: function(onename) {
             this.uname = onename;
-            console.log(onename);
+            console.log("input is :" + onename);
           }}, {});
       }();
       $__export("Welcome", Welcome);

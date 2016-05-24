@@ -1,17 +1,14 @@
-How to deploy
-Welcome to your new Orchard application. Deployment is done via the Git version control system.
+We recommend every repository include a README, LICENSE, and .gitignore.
+…or create a new repository on the command line
 
-Create a Git repository
+echo "# angular2demo" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/xqcao/angular2demo.git
+git push -u origin master
 
-If you don't already have a Git repository for your app:
+…or push an existing repository from the command line
 
-$ cd path/to/hellong2
-$ git init
-$ git add .
-$ git commit -m 'Initial Commit'
-Add orchard as a remote
-
-$ git remote add orchard git@orchard.apple.com:xiaoqiang-cao/hellong2.git
-Push your code
-
-$ git push orchard master
+git remote add origin https://github.com/xqcao/angular2demo.git
+git push -u origin master

@@ -16,6 +16,6 @@ export class Welcome {
     constructor() {}
     addName(onename: string) {
       this.uname = onename;
-      console.log(onename);
+      console.log("input is :" + onename);
     }
   }

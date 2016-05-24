@@ -4,6 +4,8 @@ import { Myclient} from 'myclient';
 
 import { Welcome} from 'welcome';
 
+import { Mygithub} from 'mygithub';
+
 @Component({
   selector: 'main'
   })
@@ -22,3 +24,5 @@ class Main {
   bootstrap(Main);
 
   bootstrap(Welcome);
+
+  bootstrap(Mygithub);

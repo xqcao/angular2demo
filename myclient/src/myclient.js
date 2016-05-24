@@ -1,8 +1,8 @@
-import {Component, View} from 'angular2/core';
+import { Component, View} from 'angular2/core';
 
 @Component({
   selector: 'myclient'
-})
+  })
 
 @View({
   templateUrl: 'myclient.html'
@@ -10,8 +10,8 @@ import {Component, View} from 'angular2/core';
 
 export class Myclient {
 
-  constructor() {
-    console.info('Myclient Component Mounted Successfully');
-  }
+    constructor() {
+      console.info('Myclient Component Mounted Successfully');
+    }
 
-}
+  }
